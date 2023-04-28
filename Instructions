@@ -16,3 +16,6 @@ for male heasders a female header pin set(1x8) is required. -note: if you have t
 12.Burn Bootloader: Tools> Programmer: Arduino as ISP, Tools> BurnBootloader
 13.Done: you can now Choose your board upon needed change as: ATtiny25/45/85(No bootloader), Clock source(only set on bootload): your previous choice, and Port: Your programmer arduino.
 Then I would upload some sort of test: You can use Test.ino from this github repository, then use an LED between pin gnd(Bottom left) and pb0(bottom right) -note: Duh... Add power. 
+
+
+Option 2: Follow this guide:  https://gist.github.com/ij96/804e731bd31dbb95b2b043e93c79ceab
