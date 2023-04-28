@@ -7,8 +7,9 @@ Option1: PBC
 5.Plug into arduino:
 Works with Mega2560, Basic Nano And UnoR3.
 for male heasders a female header pin set(1x8) is required. -note: if you have the skills, you can change the easyeda design(in this repository) to fit a male header with a female.
-6. Download your Arduino's Script from this repository(Mega or Uno Or nano)
-7.Upload TO ARDUINO(Mega,Nano,Uno
+6.Download your Arduino's Script from this repository(Mega or Uno Or nano):
+Uno_and_Mega_ISP_ATtiny85 OR Nano_ISP_ATtiny85
+7.Upload TO ARDUINO(Mega,Nano,Uno)
 8.Add the following link to the additional boards manager, In Prefrences, in the ide:   http://drazzy.com/package_drazzy.com_index.json
 9. Download the Boards: Arduino IDE> Tools> Board> Board Manager> Search> AttinyCore> Install
 10.Change Board:Tools> Board> AttinyCore> ATtiny25/45/85(No bootloader)
